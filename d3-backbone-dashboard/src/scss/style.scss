@@ -1,0 +1,73 @@
+/* Release Summary
+****************************************/
+
+#release-summary {
+  margin-bottom: 0;
+
+  #loading {display: initial;}
+
+  // fix for select2-bootstrap
+  [class^="input-"] [class^="select2-choice"] > div { display: initial !important }
+
+  .page-header {
+    margin-top: 0;
+
+    .selector {
+      float: right;
+      margin-left: 15px;
+      margin-top: 20px;
+    }
+
+    span.dropdown-toggle {
+      border: 1px solid transparent;
+      border-radius: 4px;
+      padding: 5px;
+      cursor: pointer;
+    }
+
+    span.dropdown-toggle:hover, span.dropdown-toggle.active {
+      border-color: #ddd;
+    }
+
+    ul li a {
+      font-size: 14px;
+    }
+  }
+
+  #release-summary-charts {
+
+    .issues-graph {
+      margin-top: 40px;
+
+      h2 {
+        font-size: 16px;
+        line-height: 1.4em;
+        // font-weight: normal;
+        color: #5a5a5a;
+        text-align: center;
+        margin-bottom: 0;
+        // height: 40px;
+      }
+
+      .hover-message {
+        text-align: center;
+        margin: 0;
+        opacity: 0;
+      }
+
+      .chart {
+        height: 390px;
+
+        .label text {
+          font-weight: normal;
+          font-size: 14px; 
+        }
+
+        .legend text {
+          font-weight: normal;
+          font-size: 14px; 
+        }
+      }
+    }
+  }
+}
